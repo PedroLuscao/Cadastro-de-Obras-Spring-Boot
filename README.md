@@ -36,4 +36,9 @@ Responsáveis: <br>
         <td>responsavel</td>
         <td>Cadastra um responsável através do JSON enviado no BODY. O JSON deverá conter um campo "cpf" e um "nome". Exemplo: {"cpf": "326.901.680-81","nome": "Luana"}</td>
     </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>responsavel/:id</td>
+        <td>Deleta um responsponsável. Exemplo: "http://localhost:8080/responsavel/1" irá deletar o responsável com código 1</td>
+    </tr>
 </table>
