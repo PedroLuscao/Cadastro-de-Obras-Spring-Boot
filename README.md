@@ -59,6 +59,11 @@ Obras:
         <td>obra/:id</td>
         <td>Deleta uma obra. Exemplo: "http://localhost:8080/obra/1" irá deletar a obra de número 1</td>
     </tr>
+    <tr>
+        <td>PUT</td>
+        <td>obra/:idObra/responsaveis/:idResponsavel</td>
+        <td>Relaciona um responsável a uma obra. Exemplo: "http://localhost:8080/obra/2/responsaveis/1" diz que na obra 2 será adicionado o responsável 1</td>
+    </tr>
 </table>
 <br>
 Obras Privadas:
