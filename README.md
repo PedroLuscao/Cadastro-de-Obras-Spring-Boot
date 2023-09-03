@@ -15,4 +15,17 @@ Requisitos: <br>
 • MySql instalado e configurado para que o programa possa criar um database <br>
 • Java instalado (Versão utilizada é a 20) <br>
 • JDK instalado <br>
+<br>
+Base da api: http://localhost:8080/ <br>
+<br>
+Responsáveis: <br>
 
+<table>
+  <th>Metodo</th>
+  <th>Parametro</th>
+  <th>Obs</th>
+  <td>GET</td>
+  <td>responsavel</td>
+  <td>Lista todos os responsáveis cadastrados</td>
+
+</table>
