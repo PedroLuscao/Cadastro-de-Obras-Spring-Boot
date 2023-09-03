@@ -84,3 +84,22 @@ Obras Privadas:
         <td>Cadastra uma obra privada através do JSON enviado no BODY. O JSON deverá conter os campos "descricao", "zona" (RURAL ou URBANA) e "areaTotal". Exemplo: {"descricao": "Construção de casinha","zona": "URBANA","areaTotal": 250.0}. Não é necessário informar o numero da obra, o programa criará automaticamente</td>
     </tr>
 </table>
+<br>
+Obras Públicas:
+<table border="1">
+    <tr>
+        <th>Metodo</th>
+        <th>Parametro</th>
+        <th>Obs</th>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>obrapublica</td>
+        <td>Listar todas as obras publicas cadastradas, com seus respectivos responsáveis. Ordenado pelo número</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>obrapublica</td>
+        <td>Cadastra uma obra publica através do JSON enviado no BODY. O JSON deverá conter os campos "descricao", "dataInicio" e "dataFim". Exemplo: {"descricao": "asfalto na rua XV", "dataInicio": "2022-12-01", "dataFim": "2023-03-25"}. Não é necessário informar o numero da obra, o programa criará automaticamente</td>
+    </tr>
+</table>
