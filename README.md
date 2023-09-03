@@ -28,7 +28,12 @@ Responsáveis: <br>
     </tr>
     <tr>
         <td>GET</td>
-        <td>responsaveis</td>
-        <td>listar</td>
+        <td>responsavel</td>
+        <td>Listar todos os responsáveis cadastrados</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>responsavel</td>
+        <td>Cadastra um responsável através do JSON enviado no BODY. O JSON deverá conter um campo "cpf" e um "nome". Exemplo: {"cpf": "326.901.680-81","nome": "Luana"}</td>
     </tr>
 </table>
