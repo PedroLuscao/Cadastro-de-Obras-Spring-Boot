@@ -7,7 +7,7 @@ O programa não possui telas gráficas.
 Todos as funcionalidades podem ser acessadas através de uma REST API, pelos métodos GET, POST, PUT, DELETE que serão detalhados posteriormente.
 
 Tecnologias utilizadas:
-• Java
+• Java <br>
 • Spring Boot com JPA
 • MySql
 
