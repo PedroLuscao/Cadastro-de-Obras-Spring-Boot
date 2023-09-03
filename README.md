@@ -55,6 +55,11 @@ Obras:
         <td>Listar todas as obras cadastradas, Públicas ou Privadas, com seus respectivos responsáveis. Ordenado pelo número</td>
     </tr>
     <tr>
+        <td>GET</td>
+        <td>obra/responsaveis/:idResponsavel</td>
+        <td>Listar todas as obras cadastradas, Públicas ou Privadas, vinculadas a um responsável. Ordenado pelo número</td>
+    </tr>
+    <tr>
         <td>DELETE</td>
         <td>obra/:id</td>
         <td>Deleta uma obra. Exemplo: "http://localhost:8080/obra/1" irá deletar a obra de número 1</td>
