@@ -56,7 +56,26 @@ Obras:
     </tr>
     <tr>
         <td>DELETE</td>
-        <td>obra</td>
+        <td>obra/:id</td>
         <td>Deleta uma obra. Exemplo: "http://localhost:8080/obra/1" irá deletar a obra de número 1</td>
+    </tr>
+</table>
+<br>
+Obras Privadas:
+<table border="1">
+    <tr>
+        <th>Metodo</th>
+        <th>Parametro</th>
+        <th>Obs</th>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>obraprivada</td>
+        <td>Listar todas as obras privadas cadastradas, com seus respectivos responsáveis. Ordenado pelo número</td>
+    </tr>
+    <tr>
+        <td>POST</td>
+        <td>obraprivada</td>
+        <td>Cadastra uma obra privada através do JSON enviado no BODY. O JSON deverá conter os campos "descricao", "zona" (RURAL ou URBANA) e "areaTotal". Exemplo: {"descricao": "Construção de casinha","zona": "URBANA","areaTotal": 250.0}. Não é necessário informar o numero da obra, o programa criará automaticamente</td>
     </tr>
 </table>
