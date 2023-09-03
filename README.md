@@ -20,15 +20,15 @@ Base da api: http://localhost:8080/ <br>
 <br>
 Responsáveis: <br>
 
-<table>
-  <tr>
-    <th>Método</th>
-    <th>Parametro</th>
-    <th>Obs</th>
-  </tr>  
-  <tr>
-    <td>GET</td>
-    <td>responsavel</td>
-    <td>Lista todos os responsáveis cadastrados</td>
-  </tr>
+<table border="1">
+    <tr>
+        <th>Metodo</th>
+        <th>Parametro</th>
+        <th>Obs</th>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>responsaveis</td>
+        <td>listar</td>
+    </tr>
 </table>
