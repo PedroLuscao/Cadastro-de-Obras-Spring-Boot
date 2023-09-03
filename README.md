@@ -34,7 +34,7 @@ Responsáveis: <br>
     <tr>
         <td>POST</td>
         <td>responsavel</td>
-        <td>Cadastra um responsável através do JSON enviado no BODY. O JSON deverá conter um campo "cpf" e um "nome". Exemplo: {"cpf": "326.901.680-81","nome": "Luana"}</td>
+        <td>Cadastra um responsável através do JSON enviado no BODY. O JSON deverá conter um campo "cpf" e um "nome". Exemplo: {"cpf": "326.901.680-81","nome": "Luana"}. Não é necessário informar o código do responsável, o programa criará automaticamente</td>
     </tr>
     <tr>
         <td>DELETE</td>
