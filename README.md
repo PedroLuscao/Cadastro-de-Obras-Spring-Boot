@@ -18,8 +18,7 @@ Requisitos: <br>
 <br>
 Base da api: http://localhost:8080/ <br>
 <br>
-Responsáveis: <br>
-
+Responsáveis:
 <table border="1">
     <tr>
         <th>Metodo</th>
@@ -42,9 +41,8 @@ Responsáveis: <br>
         <td>Deleta um responsponsável. Exemplo: "http://localhost:8080/responsavel/1" irá deletar o responsável com código 1</td>
     </tr>
 </table>
-<br><br>
-Obras: <br>
-
+<br>
+Obras:
 <table border="1">
     <tr>
         <th>Metodo</th>
