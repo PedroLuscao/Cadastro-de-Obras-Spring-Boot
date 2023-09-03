@@ -44,6 +44,7 @@ Responsáveis: <br>
 </table>
 <br>
 Obras: <br>
+
 <table border="1">
     <tr>
         <th>Metodo</th>
@@ -53,6 +54,11 @@ Obras: <br>
     <tr>
         <td>GET</td>
         <td>obra</td>
-        <td>Listar todas as obras cadastradas, com seus respectivos responsáveis. Ordenado pelo número</td>
+        <td>Listar todas as obras cadastradas, Públicas ou Privadas, com seus respectivos responsáveis. Ordenado pelo número</td>
+    </tr>
+    <tr>
+        <td>DELETE</td>
+        <td>obra</td>
+        <td>Deleta uma obra. Exemplo: "http://localhost:8080/obra/1" irá deletar a obra de número 1</td>
     </tr>
 </table>
