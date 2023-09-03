@@ -16,6 +16,8 @@ Requisitos: <br>
 • Java instalado (Versão utilizada é a 20) <br>
 • JDK instalado <br>
 <br>
+Para rodar o programa basta executar o arquivo "DesafioWebApplication.java", localizado em: "/desafioWeb/src/main/java/com/desafio/desafioWeb"
+<br>
 Base da api: http://localhost:8080/ <br>
 <br>
 Responsáveis:
