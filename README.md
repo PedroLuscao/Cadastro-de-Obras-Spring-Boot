@@ -42,3 +42,17 @@ Responsáveis: <br>
         <td>Deleta um responsponsável. Exemplo: "http://localhost:8080/responsavel/1" irá deletar o responsável com código 1</td>
     </tr>
 </table>
+<br>
+Obras: <br>
+<table border="1">
+    <tr>
+        <th>Metodo</th>
+        <th>Parametro</th>
+        <th>Obs</th>
+    </tr>
+    <tr>
+        <td>GET</td>
+        <td>obra</td>
+        <td>Listar todas as obras cadastradas, com seus respectivos responsáveis. Ordenado pelo número</td>
+    </tr>
+</table>
