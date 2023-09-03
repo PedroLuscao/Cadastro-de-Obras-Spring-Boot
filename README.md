@@ -60,7 +60,7 @@ Obras:
     <tr>
         <td>GET</td>
         <td>obra/responsaveis/:idResponsavel</td>
-        <td>Listar todas as obras cadastradas, Públicas ou Privadas, vinculadas a um responsável. Ordenado pelo número</td>
+        <td>Listar todas as obras cadastradas, Públicas ou Privadas, vinculadas a um responsável. Ordenado pelo número. Exemplo: "http://localhost:8080/obra/responsaveis/1" irá retornar todas as obras que o responsável com código 1 faz parte</td>
     </tr>
     <tr>
         <td>DELETE</td>
