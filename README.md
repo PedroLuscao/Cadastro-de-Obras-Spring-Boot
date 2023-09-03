@@ -33,7 +33,7 @@ Responsáveis:
     <tr>
         <td>POST</td>
         <td>responsavel</td>
-        <td>Cadastra um responsável através do JSON enviado no BODY. O JSON deverá conter um campo "cpf" e um "nome". Exemplo: {"cpf": "326.901.680-81","nome": "Luana"}. Não é necessário informar o código do responsável, o programa criará automaticamente</td>
+        <td>Cadastra um responsável através do JSON enviado no BODY. O JSON deverá conter um campo "cpf" (O cpf deve ser válido e no padrão xxx.xxx.xxx-xx) e um "nome". Exemplo: {"cpf": "326.901.680-81","nome": "Luana"}. Não é necessário informar o código do responsável, o programa criará automaticamente</td>
     </tr>
     <tr>
         <td>DELETE</td>
@@ -105,6 +105,6 @@ Obras Públicas:
     <tr>
         <td>POST</td>
         <td>obrapublica</td>
-        <td>Cadastra uma obra publica através do JSON enviado no BODY. O JSON deverá conter os campos "descricao", "dataInicio" e "dataFim". Exemplo: {"descricao": "asfalto na rua XV", "dataInicio": "2022-12-01", "dataFim": "2023-03-25"}. Não é necessário informar o numero da obra, o programa criará automaticamente</td>
+        <td>Cadastra uma obra publica através do JSON enviado no BODY. O JSON deverá conter os campos "descricao", "dataInicio" (No padrão yyyy-mm-dd) e "dataFim" (No padrão yyyy-mm-dd). Exemplo: {"descricao": "asfalto na rua XV", "dataInicio": "2022-12-01", "dataFim": "2023-03-25"}. Não é necessário informar o numero da obra, o programa criará automaticamente</td>
     </tr>
 </table>
