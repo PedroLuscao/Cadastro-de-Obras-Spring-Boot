@@ -1,6 +1,6 @@
 # Cadastro-de-Obras-Spring-Boot 
 
-CRUD de Obras (Publicas ou Privadas) e Responsáveis. Uma obra pode ser associada a vários responsáveis, assim como um responsável pode ser associado a várias obras. <br>
+CRUD de Obras (Públicas ou Privadas) e Responsáveis. Uma obra pode ser associada a vários responsáveis, assim como um responsável pode ser associado a várias obras. <br>
 
 O programa não possui telas gráficas. <br>
 
@@ -24,8 +24,8 @@ Base da api: http://localhost:8080/ <br>
 Responsáveis:
 <table border="1">
     <tr>
-        <th>Metodo</th>
-        <th>Parametro</th>
+        <th>Método</th>
+        <th>Parâmetro</th>
         <th>Obs</th>
     </tr>
     <tr>
@@ -48,8 +48,8 @@ Responsáveis:
 Obras:
 <table border="1">
     <tr>
-        <th>Metodo</th>
-        <th>Parametro</th>
+        <th>Método</th>
+        <th>Parâmetro</th>
         <th>Obs</th>
     </tr>
     <tr>
@@ -77,8 +77,8 @@ Obras:
 Obras Privadas:
 <table border="1">
     <tr>
-        <th>Metodo</th>
-        <th>Parametro</th>
+        <th>Método</th>
+        <th>Parâmetro</th>
         <th>Obs</th>
     </tr>
     <tr>
@@ -96,8 +96,8 @@ Obras Privadas:
 Obras Públicas:
 <table border="1">
     <tr>
-        <th>Metodo</th>
-        <th>Parametro</th>
+        <th>Método</th>
+        <th>Parâmetro</th>
         <th>Obs</th>
     </tr>
     <tr>
