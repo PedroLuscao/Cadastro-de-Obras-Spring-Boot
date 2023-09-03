@@ -42,7 +42,7 @@ Responsáveis: <br>
         <td>Deleta um responsponsável. Exemplo: "http://localhost:8080/responsavel/1" irá deletar o responsável com código 1</td>
     </tr>
 </table>
-<br>
+<br><br>
 Obras: <br>
 
 <table border="1">
