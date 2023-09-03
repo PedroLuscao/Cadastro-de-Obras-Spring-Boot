@@ -21,11 +21,11 @@ Base da api: http://localhost:8080/ <br>
 Responsáveis: <br>
 
 <table>
-  <th>
-    <td>Método</td>
-    <td>Parametro</td>
-    <td>Obs</td>
-  </th>  
+  <tr>
+    <th>Método</th>
+    <th>Parametro</th>
+    <th>Obs</th>
+  </tr>  
   <tr>
     <td>GET</td>
     <td>responsavel</td>
